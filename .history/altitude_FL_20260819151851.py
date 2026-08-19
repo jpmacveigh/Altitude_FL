@@ -27,10 +27,10 @@ T_sol = st.number_input(
 )
 QNH = st.number_input(
     "QNH (hPa)",
-    min_value=900,
-    max_value=1100,
-    value=1013,
-    step=1
+    min_value=900.0,
+    max_value=1100.0,
+    value=1013.25,
+    step=0.1
 )
 # Calcul
 altitude=alti_FL(FL,QNH,T_sol)

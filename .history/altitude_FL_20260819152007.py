@@ -27,9 +27,9 @@ T_sol = st.number_input(
 )
 QNH = st.number_input(
     "QNH (hPa)",
-    min_value=900,
-    max_value=1100,
-    value=1013,
+    min_value=900.0,
+    max_value=1100.0,
+    value=1013.25,
     step=1
 )
 # Calcul
